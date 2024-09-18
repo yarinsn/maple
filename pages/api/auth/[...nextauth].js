@@ -8,9 +8,9 @@ export const authOptions = {
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
     }),
   ],
-  pages: {
-    signIn: "/auth/signin", // Customize the sign-in page if needed
-  },
+  // pages: {
+  //   signIn: "/auth/signin", // Customize the sign-in page if needed
+  // },
   session: {
     jwt: true, // Use JWT for sessions
   },
