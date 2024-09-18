@@ -11,9 +11,9 @@ export const authOptions = {
   // pages: {
   //   signIn: "/auth/signin", // Customize the sign-in page if needed
   // },
-  session: {
-    jwt: true, // Use JWT for sessions
-  },
+  // session: {
+  //   jwt: true, // Use JWT for sessions
+  // },
 };
 
 export default NextAuth(authOptions);
