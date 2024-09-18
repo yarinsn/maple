@@ -4,4 +4,4 @@ env:
   - variable: GOOGLE_CLIENT_SECRET
     secret: GOOGLE_CLIENT_SECRET
   - variable: NEXTAUTH_SECRET
-    secret: test
+    secret: NEXTAUTH_SECRET
